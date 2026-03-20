@@ -62,10 +62,6 @@ project/
 ├── notebooks/
 │   └── notebook.ipynb
 │
-├── src/
-│   ├── preprocessing.py
-│   ├── feature_engineering.py
-│     └── train_model.py
 │
 ├── README.md
 ├── requirements.txt
