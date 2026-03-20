@@ -1,0 +1,18 @@
+        prédit0     prédit1
+vrai 0      TN          FP
+vrai 1      FN          TP
+
+Accuracy : Pourcentage total de bonnes predictions (TP+TN)/T
+    - Mauvais pour un dataset déséquilibré
+Precision : Parmis ce que le modèle a predit comme 1, combien sont vraiment 1 TP/(TP+FP)
+    - Important quand les faux positifs sont correctes
+
+Recall : Parmis les vrais 1, combien le modèle a détecté? TP/(TP+FN)
+    - Important quand rater un ces est grave 
+
+F1 : Moyenne harmonique entre precision et recall , ils est élevé si les deux sont élevés. 2[(Precision x Recall)/(Precision+Recall)]
+    -Très utilisé en déséquilibre
+
+Support : Nombre réel d'exemple par classe
+
+ROC-AUC : Mesure la capacité du modèle à séparer les classes independant du seuil
